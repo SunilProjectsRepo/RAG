@@ -1,0 +1,39 @@
+# Core Python / Jupyter
+pandas>=3.0.1
+ipywidgets>=8.1.8
+notebook>=7.5.5
+jupyterlab>=4.5.6
+
+# LangChain core
+langchain>=1.0,<2.0
+langchain-openai>=1.1.11,<2.0
+langchain-community>=0.3.28,<1.0
+langchain-huggingface>=0.0.3
+langchain-groq>=0.1.10
+
+# LLM / Embeddings
+openai>=2.28.0,<3.0.0
+sentence-transformers>=2.2.2
+tiktoken>=0.12.0
+
+# Vector DBs
+faiss-cpu>=1.13.2
+chromadb>=1.5.5
+
+# Document loaders
+pypdf>=6.9.0
+pymupdf>=1.27.2
+unstructured>=0.12.6
+pdfminer>=20191125
+python-docx>=1.2.0
+docx2txt>=0.9
+openpyxl>=3.1.5
+msoffcrypto-tool>=6.0.0
+
+# Utilities
+python-dotenv>=1.2.2
+jq>=1.11.0
+matplotlib>=3.10.8
+
+# Pydantic
+pydantic>=2.0.0,<3.0.0
