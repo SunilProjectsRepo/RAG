@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: nexacorp-ai-backend
+  ai:
+    openai:
+      api-key: ${OPENAPI_KEY}
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/nexacorp_knowledge
+    username: nexa
+    password: nexa
+
+
